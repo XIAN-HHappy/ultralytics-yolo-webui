@@ -1,0 +1,4 @@
+gradio
+ultralytics
+web-browser
+supervision
