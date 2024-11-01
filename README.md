@@ -26,7 +26,7 @@ pip install -r requirements.txt
 
 ![img5](doc/mk_doc.png)   
 
-#### * Inference YoLo(训练)
+#### * Inference YoLo(推理)
 ![img6](doc/Step3.png)   
 
 ![img7](doc/Step3-done.png)   
