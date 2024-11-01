@@ -16,15 +16,18 @@ pip install -r requirements.txt
 
 ![img2](doc/Step1-1-done.png)    
 
-
-#### * Train YoLo(训练)
 ![img3](doc/Step1-2.png)    
 
 ![img4](doc/Step1-2.png)   
 
 ##### 生成对应的文件夹
 
-![img5](doc/mk_doc.png)   
+![img5](doc/mk_doc.png)
+
+#### * Train YoLo(训练)
+![img51](doc/Step2.png)
+
+![img52](doc/Step2-done.png)   
 
 #### * Inference YoLo(推理)
 ![img6](doc/Step3.png)   
