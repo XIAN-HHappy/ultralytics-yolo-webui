@@ -1,6 +1,10 @@
 # ultralytics-yolo-webui
 ultralytics-yolo-webui : DataBall
 
+## 更多的项目数据资源和落地方案，可以加入 “DataBall - X ”知识星球 free
+
+<img src="./doc/zsxq.jpg" width="50%" alt="知识星球">
+
 ## 1、Install
 
 ```python
