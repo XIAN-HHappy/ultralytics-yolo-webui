@@ -11,6 +11,7 @@ import numpy as np
 import time
 from ultralytics import YOLO
 from ultralytics import settings
+import torch
 
 def fun_retry():
     return gr.update(value="Train")
@@ -40,10 +41,16 @@ def fun_train(data_yaml,optimizer,finetune_model,model_yaml,epoch,imgsz,batch_si
     # 加载一个模型
     model = YOLO(model_yaml)  # 从YAML建立一个新模型
     model.load('./ckpt/{}'.format(finetune_model))
+
+    device_id = int(device_id) if torch.cuda.is_available() else "cpu"
+    if(device_id == "cpu"):
+        print("use device {}".format(device_id))
     # train : 训练模型
     # optimizer : auto, SGD, Adam, AdamW, NAdam, RAdam, RMSProp
+
     results = model.train(data=data_yaml,optimizer = optimizer,
-                      epochs=int(epoch), imgsz=int(imgsz), device=int(device_id), workers=int(workers), batch=int(batch_size), cache=True,dropout=0.0)
+                      epochs=int(epoch), imgsz=int(imgsz), device=device_id, workers=int(workers), batch=int(batch_size), cache=True,dropout=0.0)
+
 
     print(" -> train yolo done !")
 
