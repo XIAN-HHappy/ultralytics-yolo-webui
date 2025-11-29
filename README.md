@@ -5,6 +5,16 @@ ultralytics-yolo-webui : DataBall
 
 <img src="./doc/zsxq.jpg" width="50%" alt="知识星球">
 
+## 工具使用视频演示
+
+[1.yolo webui工具-数据预处理：xml转txt](https://www.bilibili.com/video/BV1AdSJBnE5w?vd_source=6f20800acf917d7acba11482f3414e33&spm_id_from=333.788.videopod.sections)
+
+[2.yolo webui工具-生成yolo格式训练集及配置文件](https://www.bilibili.com/video/BV1T2SJB4Ek1?vd_source=6f20800acf917d7acba11482f3414e33&spm_id_from=333.788.videopod.sections)
+
+[3.yolo webui工具-模型训练](https://www.bilibili.com/video/BV1KDSJB9EGq?vd_source=6f20800acf917d7acba11482f3414e33&spm_id_from=333.788.videopod.sections)
+
+[4.yolo webui工具-模型推理](https://www.bilibili.com/video/BV1qGSwBdEfE?vd_source=6f20800acf917d7acba11482f3414e33&spm_id_from=333.788.videopod.sections)
+
 ## 1、Install
 
 ```python
